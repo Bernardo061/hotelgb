@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel GB - Oficial</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <a href="#" id="whatsapp-flutuante" class="whatsapp-fixed" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+    </a>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">HOTEL GB</div>
+            <ul class="nav-links">
+                <li><a href="#home">Inicial</a></li>
+                <li><a href="#quartos">Quartos</a></li>
+                <li><a href="#contato">Contate-nos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p>Bem - Vindo ao</p>
+            <h1>HOTEL GB</h1>
+            <p>Praticidade, conforto e a melhor localização para a sua jornada.</p>
+            <br>
+            <button class="btn-primary" id="btn-reserve-topo">RESERVE AGORA</button>
+        </div>
+    </section>
+
+    <section id="quartos" class="rooms-section">
+        <h2 class="section-title">QUARTOS E VALORES</h2>
+        <br>
+        <p>Cada um dos nossos quartos, claros e arejados, oferece a tranquilidade que você busca. E sim, o conforto não
+é o  nosso único objetivo; buscamos encantar. Da cama macia ao nosso excepcional café da manhã de cortesia, 
+cada detalhe foi pensado para fazer você se sentir especial.</p>
+        <div id="container-quartos" class="room-container">
+            </div>
+    </section>
+    <br>
+    <br>
+
+    <section id="contato" class="contact-section">
+        <div class="contact-container">
+            <div class="contact-text">
+                <h2>ESTAMOS AQUI PARA VOCÊ!</h2>
+                <br>
+                <p>No Hotel GB, levamos nossos clientes a sério. Se você tiver alguma dúvida, reclamação ou solicitação, encaminhe-a para nossa central de atendimento e entraremos em contato o mais breve possível.</p>
+                <br>
+                <p>Ficamos entre Anicus e Itaberai confira nossa localização no google maps.</p>
+                
+                <div class="contact-details">
+                    <p id="hotel-endereco"></p>
+                    <a href="#" id="link-maps" target="_blank" class="maps-link">Ver no maps →</a>
+                    
+                    <p class="mt-20">Phone: <span id="hotel-fone"></span></p>
+                    <p>Email: <span id="hotel-email"></span></p>
+                </div>
+            </div>
+            
+            <form class="contact-form">
+                <input type="text" placeholder="Nome" required>
+                <input type="email" placeholder="Endereço de Email" required>
+                <textarea placeholder="Mensagem" rows="5"></textarea>
+                <button type="submit" class="btn-primary">ENVIAR</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

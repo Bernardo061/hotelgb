@@ -1,0 +1,32 @@
+{
+  "hotel": {
+    "nome": "HOTEL GB",
+    "endereco": "R. Hermantina de Oliveira, 226, Setor Central, Americano do Brasil - GO, 76165-000",
+    "telefone": "+55 64 99232-7690",
+    "whatsapp": "5564992327690",
+    "email": "hotelgb@gmail.com",
+    "hero_imagem": "hero-bg.jpg",
+    "maps_link": "https://maps.app.goo.gl/J6hQQWaaio6t6P2n6",
+    "mensagem_reserva": "Olá! Gostaria de verificar a disponibilidade de reserva no Hotel GB."
+  },
+  "quartos": [
+    {
+      "nome": "QUARTO SOLTEIRO",
+      "preco": "150",
+      "imagem": "quarto-solteiro.jpg",
+      "detalhes": "Perfeito para viajantes individuais com Wi-Fi e café incluso."
+    },
+    {
+      "nome": "QUARTO DUPLO",
+      "preco": "250",
+      "imagem": "quarto-duplo.jpg",
+      "detalhes": "Conforto para casais ou amigos com vista privilegiada."
+    },
+    {
+      "nome": "QUARTO TRIPLO",
+      "preco": "350",
+      "imagem": "quarto-triplo.jpg",
+      "detalhes": "Espaço amplo para toda a família ou grupos."
+    }
+  ]
+}
