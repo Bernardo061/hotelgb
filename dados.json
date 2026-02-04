@@ -12,22 +12,23 @@
   "quartos": [
     {
       "nome": "QUARTO SOLTEIRO",
-      "preco": "60/80",
+      "preco": "",
       "imagem": "quarto-solteiro.jpg",
       "detalhes": "Perfeito para viajantes individuais com Wi-Fi e café incluso."
     },
     {
       "nome": "QUARTO DUPLO",
-      "preco": "70/90",
+      "preco": "",
       "imagem": "quarto-duplo.jpg",
       "detalhes": "Conforto para casais ou amigos com vista privilegiada."
     },
     {
       "nome": "QUARTO TRIPLO",
-      "preco": "150",
+      "preco": "",
       "imagem": "quarto-triplo.jpg",
       "detalhes": "Espaço amplo para toda a família ou grupos."
     }
   ]
 
 }
+
